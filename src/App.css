@@ -1,0 +1,39 @@
+form {
+	margin-top: 1em;
+}
+
+form > div {
+	margin: 0.5em;
+}
+
+form > div > p {
+	margin-top: 0.5em;
+}
+
+input[type="text"] {
+	padding: 0.5em 1em;
+	background-color: lightgray;
+	color: white;
+	border-radius: 5px;
+	border: solid;
+	cursor: pointer;
+	margin: 0.5em;
+}
+
+input[type="text"]:active {
+	background-color: darkseagreen;
+}
+
+.App {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.complete {
+	text-decoration: line-through;
+}
+
+.notComplete {
+	text-decoration: none;
+}
